@@ -10,7 +10,7 @@ public class Bot {
     private static String rename = "[REDACTED SOCK]";
     private static String nameDirectMessContent = "Yo bro your name ? remebber that thing it's no longer the same . wanna know why?? because you didn't follow the rules";
     public static void main(String args[]) throws Exception{
-        JDA jda = JDABuilder.createDefault("ODAxMzUwNTUyMDEzMjQyMzc4.YAfZ2w.idQtfk8Mk635Ue-4IQE1MN2AQ_s").build();
+        JDA jda = JDABuilder.createDefault("").build();
 
         jda.addEventListener(new name());
         jda.addEventListener(new prefix());
